@@ -15,8 +15,8 @@ class GithubSpider(scrapy.Spider):
                 "commit": "Sign in",
                 "utf8": utf8,
                 "authenticity_token": authenticity_token,
-                "login": "q920447939",
-                "password": "Liming19940820",
+                "login": "",#todo
+                "password": "",#todo
                 "webauthn-support": "supported"
             }
         yield scrapy.FormRequest(
